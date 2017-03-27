@@ -29,7 +29,7 @@ public class InitAVOSCloud {
 	public void saveTest() {
 		AVObject testObject = new AVObject("UserInfo");
 //		testObject.put("id", null);
-		testObject.put("userName", "haibin");
+		testObject.put("userName", "chenlin");
 		testObject.put("age", 31);
 		try {
 			testObject.save();
