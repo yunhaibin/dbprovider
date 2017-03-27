@@ -37,6 +37,12 @@ public class UserInfoServiceImpl implements UserInfoService {
 		
 	}
 	
+	/* (non-Javadoc)
+	 * @param userReq
+	 * @return
+	 * @throws AVException
+	 * @see cn.nickid.dbapi.leancloud.service.UserInfoService#getUserInfoByUserName(cn.nickid.dbapi.req.UserReq)
+	 */
 	public UserRes getUserInfoByUserName(UserReq userReq) throws AVException {
 		String userName = userReq.getName();
 		UserRes userRes = new UserRes();
