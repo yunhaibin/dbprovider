@@ -26,6 +26,7 @@ public class ContainerStartup {
 	* @return void
 	* @throws 
 	*/
+	//test commit
 	public static void main(String[] args) {
 		System.out.println("------------Container startup......---------------");
 		@SuppressWarnings("resource")
